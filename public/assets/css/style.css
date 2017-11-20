@@ -1,0 +1,58 @@
+html {
+	font-size: 12px;
+}
+
+li { 
+    margin-bottom: 1%;
+}
+
+p {
+	font-size: 16px;
+	margin-left: 1%;
+	margin-top: 1%;
+}
+h1{
+    margin-left: 160px;
+    margin-top: 40px;
+    font-family: 'Pinyon Script', cursive;
+    z-index: 1;
+    font-size: 80px;
+}
+
+#bodyinput {
+    width: 50%;
+}
+.jumbotron {
+    background: url("https://img00.deviantart.net/4854/i/2013/352/8/1/newspaper_collage_texture_by_flordeneu-d6yeuvs.jpg");
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    opacity: 0.5;
+    height: 400px;
+}
+.nytimes {
+    position: absolute;
+    top: 140px;
+    left: 20px;
+}
+.panel-heading.row {
+	width: 100%;
+    margin-left: 0%;
+}
+
+.panel-primary {
+    height: 135px;
+}
+
+#savenote {
+    display: block;
+}
+
+/* 
+  These rules take effect when the browser's width
+  is 640px or less.
+*/
+@media screen and (max-width: 640px) {
+	
+}
